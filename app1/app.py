@@ -1,4 +1,3 @@
-from turtle import distance
 from joblib import load
 import numpy as np
 from flask import Flask, render_template,request

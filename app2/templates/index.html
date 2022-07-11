@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+<body>
+    <h1>Profit prediction</h1>
+<form method="post">
+    <label for="R&D">R & D Spend</label>
+    <input type="number" name="ran" id="R&D" >
+    <br>
+    <label for="adm">Adminstration</label>
+    <input type="number" name="adm" id="adm" >
+    <br>
+    <label for="ms">Marketing Spend</label>
+    <input type="number" name="ms" id="ms" >
+    <br>
+    <label for="ste">State</label>
+    <select id="ste" name="ste">
+        <option>select</option>
+        <option value="New York">New York</option>
+        <option value="California">California</option>
+        <option value="Florida">Florida</option>
+
+    </select>
+    <br>
+    <button type="submit">Predict</button>
+</form>
+<h4> The Profit should be :{{profit}}</h4>
+
+</body>
+</html>
